@@ -1,0 +1,70 @@
+header{
+    background-color: blue;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    padding: 25px 10px;
+}
+header h1{
+    color: rgb(21, 255, 243);
+    text-shadow: 12px 23px 10px;
+
+}
+body{
+    background-color: black;
+}
+.nav{
+    background-color: skyblue;
+    width: 100%;
+    height: 100px;
+    padding: 25px 10px;
+    box-sizing: border-box;      
+
+    display: flex;               
+    justify-content: space-between;  
+    align-items: center;         
+}
+
+.logo{
+    color: rgb(30, 30, 255);
+    text-shadow: 12px 23px 10px;
+}
+
+.menu{
+    color: rgb(30, 30, 255);
+    text-shadow: 12px 23px 10px;
+}
+section{
+    display: flex;
+    box-sizing: border-box;
+}
+article{
+    background-color: rgb(0, 99, 228);
+    width: 65%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  
+}
+aside{
+    background-color: aqua;
+    width: 35%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    color: rgb(10, 155, 155);
+}
+footer{
+    background-color: aquamarine;
+    width: 100%;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    color: black;
+}
