@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #0056b3;
+}
+
+header{
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+    background-color: #3f95f0;
+    text-shadow: 4px 5px 8px rgba(0, 47, 255, 0.3);
+}
+
+main.konten {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    min-height: 2500px; 
+}
+
+p{
+    background-color: pink;
+    height: 100px;
+}
+#tombolAtas {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 99;
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #00ff00;
+    color: white;
+    border: none;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    
+    opacity: 0.6;
+    
+
+    visibility: hidden;
+    
+    transition: opacity 0.3s ease, visibility 0.3s ease, background-color 0.3s ease, transform 0.2s ease;
+}
+
+#tombolAtas.tampil {
+    visibility: visible;
+    opacity: 0.6;
+}
+
+#tombolAtas:hover {
+    opacity: 1;
+    background-color: #0056b3;
+    transform: translateY(-3px);
+}

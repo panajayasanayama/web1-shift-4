@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aryaaaaaaa</title>
+    <link rel="stylesheet" href="gaya.css">
+</head>
+<body>
+
+
+    <header id="top-page">
+        <h1>Top Page Header</h1>
+    </header>
+
+    <main class="konten">
+        <h2>test</h2>
+        <p>SCROLLLLLLLL</p>
+        <p>1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>2. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p>3. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        <p>4. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+        <p>5. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
+        <p>6. Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur perferendis illum molestias beatae vel incidunt modi libero ex saepe quibusdam, ab, sit neque nam dolorem mollitia quaerat expedita aspernatur! Et!.</p>
+        <p>7. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident impedit quia, omnis blanditiis tenetur quos ea, qui dolor doloremque nisi deleniti ducimus! Atque soluta id fugiat autem adipisci laborum aliquam..</p>
+        <p>8. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae incidunt officiis voluptate natus aspernatur possimus illum. Corporis accusantium, expedita odit dolor nulla laboriosam, maiores nostrum id harum atque, odio est!.</p>
+
+        <p style="margin-top: 100px; color: gray;">test</p>
+        <p>...</p>
+        <p>...</p>
+        <p>...</p>
+        <p>...</p>
+        <p>...</p>
+        <p>...</p>
+        <p>...</p>
+        <p>...</p>
+        <p>...</p>
+        <p>...</p>
+        <p style="margin-top: 100px; color: gray;">Scroll</p>
+        <p>...</p>
+        <p>...</p>
+        <p>...</p>
+        <p>...</p>
+        <p>...</p>
+        <p>...</p>
+        <p>...</p>
+        <p>...</p>
+        <p>...</p>
+        <p>...</p>
+        <p>...</p>
+        <p>...</p>
+        <p>...</p>
+        <p style="margin-bottom: 500px;">akhir</p>
+    </main>
+
+
+    <button id="tombolAtas" title="Kembali ke atas">↑</button>
+
+
+    <script>
+
+        const tombolAtas = document.getElementById("tombolAtas");
+
+
+        window.addEventListener("scroll", function() {
+
+            if (window.scrollY > 500) {
+                tombolAtas.classList.add("tampil");
+            } else {
+
+                tombolAtas.classList.remove("tampil");
+            }
+        });
+
+
+        tombolAtas.addEventListener("click", function() {
+
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        });
+    </script>
+
+</body>
+</html>
